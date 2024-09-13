@@ -6,8 +6,9 @@ $stmt = $pdo->query("
     SELECT u.nickname, SUM(s.is_correct) AS score
     FROM Users u
     JOIN Submissions s ON u.id = s.user_id
+    WHERE u.role = 'student'
     GROUP BY u.id
-    ORDER BY score DESC
+    ORDER BY score DESC;
 ");
 
 $scores = $stmt->fetchAll();
