@@ -1,0 +1,12 @@
+.logo {
+    border-radius: 0.5rem; /* Rounded corners */
+    width: 30px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 40px; /* Set a maximum height for the logo */
+}
+
+.navbar-brand {
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 0.5rem; /* Padding for better appearance */
+    font-size: 1.2rem; /* Adjust font size if needed */
+}
