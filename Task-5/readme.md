@@ -39,7 +39,6 @@ Katkıda bulunmak isteyenler:
 
 ## English
 
-![Yavuzlar PHP Shell Logo](https://i.hizliresim.com/hw0i7sb.png)
 
 ### What is Yavuzlar PHP Shell?
 
