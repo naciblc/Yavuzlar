@@ -1,6 +1,6 @@
 ### README.md - Yavuzlar PHP Shell
 
-![Yavuzlar PHP Shell Logo](https://hizliresim.com/hw0i7sb)
+![Yavuzlar PHP Shell Logo](https://i.hizliresim.com/hw0i7sb.png)
 
 ---
 
@@ -39,7 +39,7 @@ Katkıda bulunmak isteyenler:
 
 ## English
 
-![Yavuzlar PHP Shell Logo](https://hizliresim.com/hw0i7sb)
+![Yavuzlar PHP Shell Logo](https://i.hizliresim.com/hw0i7sb.png)
 
 ### What is Yavuzlar PHP Shell?
 
