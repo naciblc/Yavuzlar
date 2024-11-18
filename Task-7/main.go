@@ -13,7 +13,7 @@ func main() {
 	for {
 		fmt.Println("Hoş geldiniz!\n")
 		fmt.Printf("1- Hacker Haberleri İçin Tuşlayınız.\n")
-		fmt.Printf("2- Twitter Trend Top 10 İçin Tuşlayınız.\n")
+		fmt.Printf("2- Twitter Trend Top 5 İçin Tuşlayınız.\n")
 		fmt.Printf("3- Yavuzlar Web Güvenliği Yayınlanan Makaleler.\n")
 		fmt.Printf("4- Çıkış Yap\n")
 		var tuslama int
@@ -32,7 +32,7 @@ func main() {
 			}
 		case 2:
 			fmt.Printf("-------------------------------------------------------------------------\n")
-			fmt.Printf("Twitter Türkiye Top 10\n")
+			fmt.Printf("Twitter Türkiye Top 5\n")
 			twiter()
 			fmt.Println("\nBaşka bir işlem yapmak için bir enter'a basın...")
 			var key string
@@ -53,16 +53,17 @@ func main() {
 	}
 }
 func twiter() {
-	res, _ := http.Get("https://twitter-trends.iamrohit.in/turkey")
+	res, _ := http.Get("https://www.twitter-trending.com/turkey/tr")
 	if res.StatusCode != 200 {
 		fmt.Println("Hata", res.StatusCode)
 		return
 	}
+
 	say := 0
 	doc, _ := goquery.NewDocumentFromReader(res.Body)
 
-	doc.Find(".tweet").Each(func(i int, s *goquery.Selection) {
-		if say >= 10 {
+	doc.Find(".sire_kelime").Each(func(i int, s *goquery.Selection) {
+		if say >= 5 {
 
 			return
 		}
