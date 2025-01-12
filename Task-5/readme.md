@@ -1,6 +1,6 @@
 ### README.md - Yavuzlar PHP Shell
 
-![Yavuzlar PHP Shell Logo](https://i.hizliresim.com/hw0i7sb.png)
+![Yavuzlar PHP Shell Logo](https://github.com/naciblc/Yavuzlar/blob/main/Task-5/ba%C5%9Fl%C4%B1ks%C4%B1z.GIF)
 
 ---
 
