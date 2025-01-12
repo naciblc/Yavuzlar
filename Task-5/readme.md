@@ -3,8 +3,6 @@
 ![Yavuzlar PHP Shell Logo](https://github.com/naciblc/Yavuzlar/blob/main/Task-5/ba%C5%9Fl%C4%B1ks%C4%B1z.GIF)
 
 ---
-![Yavuzlar PHP Shell GİF](https://github.com/naciblc/Yavuzlar/blob/main/Task-5/ba%C5%9Fl%C4%B1ks%C4%B1z.GIF)
----
 ## Türkçe
 
 ### Yavuzlar PHP Shell Nedir?
